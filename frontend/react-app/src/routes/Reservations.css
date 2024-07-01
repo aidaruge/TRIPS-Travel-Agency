@@ -1,0 +1,68 @@
+/* src/routes/Reservations.css */
+.reservations-container {
+    padding: 20px;
+    margin-top: 100px;
+  }
+  
+  .reservations-container h1{
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+
+
+  .reservations-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .reservation-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reservation-photo {
+    width: 300px;
+    height: auto;
+  }
+  
+  .reservation-details {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .reservation-actions {
+    margin-top: 10px;
+  }
+  
+  .confirm-button,
+  .cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .confirm-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .confirm-button:hover {
+    background-color: #45a049;
+  }
+  
+  .cancel-button:hover {
+    background-color: #d32f2f;
+  }
+  

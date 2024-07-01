@@ -1,0 +1,109 @@
+.edit-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-container h2, .edit-container h3 {
+  text-align: center;
+  color: #333;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.edit-form input, .edit-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-form input[type="text"], .edit-form input[type="number"], .edit-form textarea {
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+}
+
+.edit-form label {
+  font-weight: bold;
+  color: #555;
+}
+
+.edit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.photo-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.photo-container img {
+  width: 100px;
+  border-radius: 4px;
+}
+
+.photo-container button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+.photo-container button:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.photo-url-input {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.photo-url-input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: calc(100% - 20px);
+}
+
+.photo-url-input button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.photo-url-input button:hover {
+  background-color: #0056b3;
+}

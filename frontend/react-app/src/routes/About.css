@@ -1,0 +1,49 @@
+.about-us {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-intro,
+.mission,
+.destinations,
+.map,
+.cta {
+    margin-bottom: 40px;
+}
+
+.about-intro h2,
+.mission h2,
+.destinations h2,
+.map h2,
+.cta h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-intro p,
+.mission p,
+.destinations p,
+.cta p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cta a,
+.destinations a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.cta a:hover,
+.destinations a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,102 @@
+/* General styling for the destination page */
+.destination-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.loading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.destination-details {
+  width: 80%;
+  max-width: 1200px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.destination-details h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+.destination-details p {
+  margin-bottom: 10px;
+}
+
+/* Slideshow styling */
+.slideshow img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Reservation form styling */
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reservation-form label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.reservation-form input,
+.reservation-form button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.reservation-form button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.reservation-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Link styling */
+.destination-details a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.destination-details a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,65 @@
+.destination-card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.destination-img {
+  width: 350px; /* Adjust width as needed */
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.destination-img:hover {
+  transform: scale(1.1);
+}
+
+.destination-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.destination-details h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.destination-details h3 {
+  margin: 5px;
+  text-decoration: none;
+}
+
+.destination-details p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.destination-btn {
+  background-color: #07111b;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 15px;
+}
+
+.destination-btn:last-of-type {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+.destination-btn:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .destination-btn {
+    padding: 0.4rem 0.8rem; /* Adjust padding for smaller screens */
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+}

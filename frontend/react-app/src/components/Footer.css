@@ -1,0 +1,29 @@
+.footer-container {
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #212020; /* Changed to black */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  

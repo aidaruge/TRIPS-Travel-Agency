@@ -1,0 +1,72 @@
+/* Keep the navbar at the top */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Make sure it's above other elements */
+    background-color: #333; /* Adjust the background color as needed */
+}
+
+/* Push down the content below the navbar */
+.main-content {
+    margin-top: 60px; /* Adjust the height of the navbar */
+}
+
+
+
+/* Adjust the styling of the signup container */
+.signup-container {
+    max-width: 400px;
+    margin: 200px auto 0; /* Add margin-top to center the form below the navbar */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.signup-title {
+    padding-bottom: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #070707;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

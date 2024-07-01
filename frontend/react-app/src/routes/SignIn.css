@@ -1,0 +1,97 @@
+/* src/routes/SignIn.css */
+
+/* Keep the navbar at the top */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Make sure it's above other elements */
+    background-color: #333; /* Adjust the background color as needed */
+}
+
+/* Push down the content below the navbar */
+.main-content {
+    margin-top: 60px; /* Adjust the height of the navbar */
+    padding-bottom: 60px; /* Add bottom padding if needed for the footer */
+}
+
+/* Adjust the styling of the signin container */
+.signin-container {
+    max-width: 400px;
+    margin: 250px auto 100px; /* Add margin-top to center the form below the navbar */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.signin-title {
+    padding-bottom: 20px;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #070707;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #f0f0f0; /* Set a background color */
+    min-height: 100vh; /* Ensure the body fills the entire viewport height */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+}
+
+/* Ensure main-content fills remaining vertical space */
+.main-content {
+    flex: 1; /* Grow to fill remaining space */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Push footer to the bottom */
+}
+
